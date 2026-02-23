@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff9933;
+  --color-background-light: #FFFBF0;
+  --color-background-dark: #23190f;
+  --color-maroon: #800000;
+  --color-gold: #D4AF37;
+  --color-sand: #eadbcd;
+  
+  --font-display: "Noto Serif", serif;
+  --font-sans: "Poppins", sans-serif;
+}
+
+.mandala-bg {
+  background-image: radial-gradient(circle at center, rgba(255, 153, 51, 0.03) 0%, transparent 70%), 
+                    repeating-radial-gradient(circle at center, rgba(128, 0, 0, 0.02) 0, rgba(128, 0, 0, 0.02) 10px, transparent 10px, transparent 20px);
+}
